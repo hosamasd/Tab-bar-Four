@@ -12,11 +12,11 @@ struct GHome: View {
     @State var show = false
 //    @State var search = ""
 //    @State var gradients : [Gradient] = []
-    @State var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 2)
+    @State var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 3)
 //    @State var filtered : [Gradient] = []
     @StateObject var vm = GradientViewModel()
     var top = UIApplication.shared.windows.first?.safeAreaInsets.top
-    
+    @State var isTwo = false
     
     var body: some View {
         
@@ -84,6 +84,15 @@ struct GHome: View {
                             if columns.count == 1{
                                 
                                 columns.append(GridItem(.flexible(), spacing: 20))
+                                isTwo = true
+                            }
+                            else if columns.count == 2 {
+                                if isTwo {
+                                    columns.append(GridItem(.flexible(), spacing: 20))
+                                }else {
+                                columns.removeLast()
+                                }
+                                isTwo = false
                             }
                             else{
                                 
@@ -104,6 +113,7 @@ struct GHome: View {
             .padding(.top,top)
             .padding(.bottom,10)
             .padding(.horizontal)
+            
             .zIndex(1)
             
             // Vstack Bug..
@@ -143,11 +153,4 @@ struct GHome: View {
     }
     
   
-}
-
-struct Home_Previews: PreviewProvider {
-    static var previews: some View {
-        GHome()
-            .preferredColorScheme(.dark)
-    }
 }

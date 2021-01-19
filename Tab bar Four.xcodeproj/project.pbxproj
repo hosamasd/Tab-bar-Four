@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,13 @@
 		4E0C32D425B6B2D3006AC398 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D325B6B2D3006AC398 /* GradientView.swift */; };
 		4E0C32D725B6B2D8006AC398 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D625B6B2D8006AC398 /* Gradient.swift */; };
 		4E0C32DA25B6B2DC006AC398 /* GradientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D925B6B2DC006AC398 /* GradientViewModel.swift */; };
+		4E0C32EF25B6B77E006AC398 /* hideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32EE25B6B77E006AC398 /* hideKeyboard.swift */; };
+		4E0C32F225B6B78A006AC398 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32F125B6B78A006AC398 /* PhotoViewModel.swift */; };
+		4E0C32F625B6B792006AC398 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32F425B6B792006AC398 /* Photo.swift */; };
+		4E0C32F725B6B792006AC398 /* SearchPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32F525B6B792006AC398 /* SearchPhoto.swift */; };
+		4E0C32FA25B6B79B006AC398 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32F925B6B79B006AC398 /* Indicator.swift */; };
+		4E0C32FE25B6B7A3006AC398 /* USContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32FC25B6B7A3006AC398 /* USContentView.swift */; };
+		4E0C32FF25B6B7A3006AC398 /* USHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32FD25B6B7A3006AC398 /* USHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,13 @@
 		4E0C32D325B6B2D3006AC398 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4E0C32D625B6B2D8006AC398 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		4E0C32D925B6B2DC006AC398 /* GradientViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewModel.swift; sourceTree = "<group>"; };
+		4E0C32EE25B6B77E006AC398 /* hideKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hideKeyboard.swift; sourceTree = "<group>"; };
+		4E0C32F125B6B78A006AC398 /* PhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		4E0C32F425B6B792006AC398 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4E0C32F525B6B792006AC398 /* SearchPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPhoto.swift; sourceTree = "<group>"; };
+		4E0C32F925B6B79B006AC398 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		4E0C32FC25B6B7A3006AC398 /* USContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USContentView.swift; sourceTree = "<group>"; };
+		4E0C32FD25B6B7A3006AC398 /* USHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USHome.swift; sourceTree = "<group>"; };
 		5D21F289A3C24791C1FA81A7 /* Pods_Tab_bar_Four.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tab_bar_Four.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81200636186FAAE6617D3C42 /* Pods-Tab bar Four.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tab bar Four.release.xcconfig"; path = "Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four.release.xcconfig"; sourceTree = "<group>"; };
 		B7D161D3D654FA2F07B8DFF1 /* Pods-Tab bar Four.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tab bar Four.debug.xcconfig"; path = "Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				4E0C32A825B6B051006AC398 /* Tab_bar_FourApp.swift */,
+				4E0C32ED25B6B776006AC398 /* helpers */,
 				4E0C32BF25B6B06A006AC398 /* viewmodel */,
 				4E0C32BE25B6B067006AC398 /* model */,
 				4E0C32BD25B6B062006AC398 /* view */,
@@ -98,6 +113,7 @@
 		4E0C32B825B6B058006AC398 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				4E0C32E825B6B75D006AC398 /* unsplash */,
 				4E0C32C625B6B2A5006AC398 /* gradient */,
 				4E0C32AA25B6B051006AC398 /* ContentView.swift */,
 				4E0C32B925B6B060006AC398 /* Home.swift */,
@@ -108,6 +124,7 @@
 		4E0C32BD25B6B062006AC398 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4E0C32EA25B6B766006AC398 /* unsplash */,
 				4E0C32CF25B6B2C7006AC398 /* cusatom */,
 				4E0C32C725B6B2AC006AC398 /* gradient */,
 				4E0C32C125B6B0A2006AC398 /* CustomTabView.swift */,
@@ -118,6 +135,8 @@
 		4E0C32BE25B6B067006AC398 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				4E0C330425B6B99F006AC398 /* Nike */,
+				4E0C32EB25B6B76B006AC398 /* unsplash */,
 				4E0C32C825B6B2B0006AC398 /* gradient */,
 			);
 			path = model;
@@ -126,6 +145,8 @@
 		4E0C32BF25B6B06A006AC398 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				4E0C330525B6B9A2006AC398 /* Nike */,
+				4E0C32EC25B6B76F006AC398 /* unsplash */,
 				4E0C32C925B6B2B3006AC398 /* gradient */,
 			);
 			path = viewmodel;
@@ -172,13 +193,68 @@
 			path = cusatom;
 			sourceTree = "<group>";
 		};
+		4E0C32E825B6B75D006AC398 /* unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32FC25B6B7A3006AC398 /* USContentView.swift */,
+				4E0C32FD25B6B7A3006AC398 /* USHome.swift */,
+			);
+			path = unsplash;
+			sourceTree = "<group>";
+		};
+		4E0C32EA25B6B766006AC398 /* unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32F925B6B79B006AC398 /* Indicator.swift */,
+			);
+			path = unsplash;
+			sourceTree = "<group>";
+		};
+		4E0C32EB25B6B76B006AC398 /* unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32F425B6B792006AC398 /* Photo.swift */,
+				4E0C32F525B6B792006AC398 /* SearchPhoto.swift */,
+			);
+			path = unsplash;
+			sourceTree = "<group>";
+		};
+		4E0C32EC25B6B76F006AC398 /* unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32F125B6B78A006AC398 /* PhotoViewModel.swift */,
+			);
+			path = unsplash;
+			sourceTree = "<group>";
+		};
+		4E0C32ED25B6B776006AC398 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32EE25B6B77E006AC398 /* hideKeyboard.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4E0C330425B6B99F006AC398 /* Nike */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nike;
+			sourceTree = "<group>";
+		};
+		4E0C330525B6B9A2006AC398 /* Nike */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nike;
+			sourceTree = "<group>";
+		};
 		E77504BEC296A20152F60658 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				B7D161D3D654FA2F07B8DFF1 /* Pods-Tab bar Four.debug.xcconfig */,
 				81200636186FAAE6617D3C42 /* Pods-Tab bar Four.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -304,14 +380,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E0C32AB25B6B051006AC398 /* ContentView.swift in Sources */,
+				4E0C32F225B6B78A006AC398 /* PhotoViewModel.swift in Sources */,
+				4E0C32FE25B6B7A3006AC398 /* USContentView.swift in Sources */,
+				4E0C32EF25B6B77E006AC398 /* hideKeyboard.swift in Sources */,
 				4E0C32CC25B6B2BF006AC398 /* GContentView.swift in Sources */,
 				4E0C32DA25B6B2DC006AC398 /* GradientViewModel.swift in Sources */,
+				4E0C32FF25B6B7A3006AC398 /* USHome.swift in Sources */,
 				4E0C32BA25B6B060006AC398 /* Home.swift in Sources */,
+				4E0C32F725B6B792006AC398 /* SearchPhoto.swift in Sources */,
+				4E0C32F625B6B792006AC398 /* Photo.swift in Sources */,
 				4E0C32C225B6B0A2006AC398 /* CustomTabView.swift in Sources */,
 				4E0C32CD25B6B2BF006AC398 /* GHome.swift in Sources */,
 				4E0C32D125B6B2CE006AC398 /* CShape.swift in Sources */,
 				4E0C32D425B6B2D3006AC398 /* GradientView.swift in Sources */,
 				4E0C32A925B6B051006AC398 /* Tab_bar_FourApp.swift in Sources */,
+				4E0C32FA25B6B79B006AC398 /* Indicator.swift in Sources */,
 				4E0C32D725B6B2D8006AC398 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

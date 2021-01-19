@@ -12,6 +12,7 @@ struct Tab_bar_FourApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
         }
     }
 }

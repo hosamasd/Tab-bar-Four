@@ -21,10 +21,10 @@ struct GradientView: View {
                 
                 LinearGradient(gradient: .init(colors: vm.HEXTORGB(colors: gradient.colors)), startPoint: .top, endPoint: .bottom)
                     .frame(height: 180)
-                    .clipShape(CShape())
+                    .clipShape(CShape(corners: [.topRight,.bottomLeft]))
                     .cornerRadius(15)
                 // context Menu...
-                    .contentShape(CShape())
+                    .contentShape(CShape(corners: [.topRight,.bottomLeft]))
                     .contextMenu{
                         
                         Button(action: {

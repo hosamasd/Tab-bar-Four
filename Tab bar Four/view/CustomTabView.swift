@@ -27,13 +27,13 @@ struct CustomTabView: View {
                 
                 HStack(spacing: 8){
                     
-                    Image(systemName: "house.fill")
+                    Image(systemName: "graduationcap.fill")
                         .foregroundColor(index == 0 ? .white : Color.black.opacity(0.35))
                         .padding(10)
                         .background(index == 0 ? Color.black : Color.clear)
                         .cornerRadius(8)
                     
-                    Text(index == 0 ? "Home" : "")
+                    Text(index == 0 ? "Gradient" : "")
                         .foregroundColor(.black)
                 }
             }
@@ -53,39 +53,13 @@ struct CustomTabView: View {
                 
                 HStack(spacing: 8){
                     
-                    Image(systemName: "suit.heart")
+                    Image(systemName: "photo.fill")
                         .foregroundColor(index == 1 ? .white : Color.black.opacity(0.35))
                         .padding(10)
                         .background(index == 1 ? Color.black : Color.clear)
                         .cornerRadius(8)
                     
-                    Text(index == 1 ? "Loved" : "")
-                        .foregroundColor(.black)
-                }
-            }
-            
-            Spacer(minLength: 0)
-            
-            Button {
-                
-                // animating..
-                
-                withAnimation{
-                    
-                    index = 2
-                }
-                
-            } label: {
-                
-                HStack(spacing: 8){
-                    
-                    Image(systemName: "person.fill")
-                        .foregroundColor(index == 2 ? .white : Color.black.opacity(0.35))
-                        .padding(10)
-                        .background(index == 2 ? Color.black : Color.clear)
-                        .cornerRadius(8)
-                    
-                    Text(index == 2 ? "Account" : "")
+                    Text(index == 1 ? "Splash" : "")
                         .foregroundColor(.black)
                 }
             }
@@ -96,7 +70,7 @@ struct CustomTabView: View {
         .padding(.bottom,UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 15 : UIApplication.shared.windows.first?.safeAreaInsets.bottom)
         
         .background(Color.white)
-        .clipShape(CShape(corners:[.topRight,.topLeft]))
+//        .clipShape(CShape(corners:[.topRight,.topLeft],width: 45))
         // since all edges are ignored...
     }
 }

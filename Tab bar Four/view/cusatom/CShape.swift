@@ -10,12 +10,13 @@ import SwiftUI
 
 struct CShape : Shape {
     
-    var corners:UIRectCorner = [.topRight,.bottomLeft]
+    var corners:UIRectCorner
+    var width:CGFloat = 55
     
     
     func path(in rect: CGRect) -> Path {
         
-        let path = UIBezierPath(roundedRect: rect, byRoundingCorners:corners , cornerRadii: CGSize(width: 55, height: 55))
+        let path = UIBezierPath(roundedRect: rect, byRoundingCorners:corners , cornerRadii: CGSize(width: width, height: width))
         
         return Path(path.cgPath)
     }
