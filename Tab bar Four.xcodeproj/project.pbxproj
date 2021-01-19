@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21FBF9E28D6BF1E693FB210A /* Pods_Tab_bar_Four.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D21F289A3C24791C1FA81A7 /* Pods_Tab_bar_Four.framework */; };
 		4E0C32A925B6B051006AC398 /* Tab_bar_FourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32A825B6B051006AC398 /* Tab_bar_FourApp.swift */; };
 		4E0C32AB25B6B051006AC398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32AA25B6B051006AC398 /* ContentView.swift */; };
 		4E0C32AD25B6B052006AC398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0C32AC25B6B052006AC398 /* Assets.xcassets */; };
 		4E0C32B025B6B052006AC398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0C32AF25B6B052006AC398 /* Preview Assets.xcassets */; };
+		4E0C32BA25B6B060006AC398 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32B925B6B060006AC398 /* Home.swift */; };
+		4E0C32C225B6B0A2006AC398 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32C125B6B0A2006AC398 /* CustomTabView.swift */; };
+		4E0C32CC25B6B2BF006AC398 /* GContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32CA25B6B2BF006AC398 /* GContentView.swift */; };
+		4E0C32CD25B6B2BF006AC398 /* GHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32CB25B6B2BF006AC398 /* GHome.swift */; };
+		4E0C32D125B6B2CE006AC398 /* CShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D025B6B2CE006AC398 /* CShape.swift */; };
+		4E0C32D425B6B2D3006AC398 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D325B6B2D3006AC398 /* GradientView.swift */; };
+		4E0C32D725B6B2D8006AC398 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D625B6B2D8006AC398 /* Gradient.swift */; };
+		4E0C32DA25B6B2DC006AC398 /* GradientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C32D925B6B2DC006AC398 /* GradientViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,17 @@
 		4E0C32AC25B6B052006AC398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0C32AF25B6B052006AC398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E0C32B125B6B052006AC398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0C32B925B6B060006AC398 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4E0C32C125B6B0A2006AC398 /* CustomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		4E0C32CA25B6B2BF006AC398 /* GContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GContentView.swift; sourceTree = "<group>"; };
+		4E0C32CB25B6B2BF006AC398 /* GHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHome.swift; sourceTree = "<group>"; };
+		4E0C32D025B6B2CE006AC398 /* CShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CShape.swift; sourceTree = "<group>"; };
+		4E0C32D325B6B2D3006AC398 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4E0C32D625B6B2D8006AC398 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		4E0C32D925B6B2DC006AC398 /* GradientViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewModel.swift; sourceTree = "<group>"; };
+		5D21F289A3C24791C1FA81A7 /* Pods_Tab_bar_Four.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tab_bar_Four.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81200636186FAAE6617D3C42 /* Pods-Tab bar Four.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tab bar Four.release.xcconfig"; path = "Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four.release.xcconfig"; sourceTree = "<group>"; };
+		B7D161D3D654FA2F07B8DFF1 /* Pods-Tab bar Four.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tab bar Four.debug.xcconfig"; path = "Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FBF9E28D6BF1E693FB210A /* Pods_Tab_bar_Four.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,8 @@
 			children = (
 				4E0C32A725B6B051006AC398 /* Tab bar Four */,
 				4E0C32A625B6B051006AC398 /* Products */,
+				E77504BEC296A20152F60658 /* Pods */,
+				FFF82DD126F273260346D5B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				4E0C32A825B6B051006AC398 /* Tab_bar_FourApp.swift */,
-				4E0C32AA25B6B051006AC398 /* ContentView.swift */,
+				4E0C32BF25B6B06A006AC398 /* viewmodel */,
+				4E0C32BE25B6B067006AC398 /* model */,
+				4E0C32BD25B6B062006AC398 /* view */,
+				4E0C32B825B6B058006AC398 /* scenes */,
 				4E0C32AC25B6B052006AC398 /* Assets.xcassets */,
 				4E0C32B125B6B052006AC398 /* Info.plist */,
 				4E0C32AE25B6B052006AC398 /* Preview Content */,
@@ -69,6 +95,101 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4E0C32B825B6B058006AC398 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32C625B6B2A5006AC398 /* gradient */,
+				4E0C32AA25B6B051006AC398 /* ContentView.swift */,
+				4E0C32B925B6B060006AC398 /* Home.swift */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		4E0C32BD25B6B062006AC398 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32CF25B6B2C7006AC398 /* cusatom */,
+				4E0C32C725B6B2AC006AC398 /* gradient */,
+				4E0C32C125B6B0A2006AC398 /* CustomTabView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E0C32BE25B6B067006AC398 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32C825B6B2B0006AC398 /* gradient */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E0C32BF25B6B06A006AC398 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32C925B6B2B3006AC398 /* gradient */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		4E0C32C625B6B2A5006AC398 /* gradient */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32CA25B6B2BF006AC398 /* GContentView.swift */,
+				4E0C32CB25B6B2BF006AC398 /* GHome.swift */,
+			);
+			path = gradient;
+			sourceTree = "<group>";
+		};
+		4E0C32C725B6B2AC006AC398 /* gradient */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32D325B6B2D3006AC398 /* GradientView.swift */,
+			);
+			path = gradient;
+			sourceTree = "<group>";
+		};
+		4E0C32C825B6B2B0006AC398 /* gradient */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32D625B6B2D8006AC398 /* Gradient.swift */,
+			);
+			path = gradient;
+			sourceTree = "<group>";
+		};
+		4E0C32C925B6B2B3006AC398 /* gradient */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32D925B6B2DC006AC398 /* GradientViewModel.swift */,
+			);
+			path = gradient;
+			sourceTree = "<group>";
+		};
+		4E0C32CF25B6B2C7006AC398 /* cusatom */ = {
+			isa = PBXGroup;
+			children = (
+				4E0C32D025B6B2CE006AC398 /* CShape.swift */,
+			);
+			path = cusatom;
+			sourceTree = "<group>";
+		};
+		E77504BEC296A20152F60658 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7D161D3D654FA2F07B8DFF1 /* Pods-Tab bar Four.debug.xcconfig */,
+				81200636186FAAE6617D3C42 /* Pods-Tab bar Four.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFF82DD126F273260346D5B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D21F289A3C24791C1FA81A7 /* Pods_Tab_bar_Four.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E0C32B425B6B052006AC398 /* Build configuration list for PBXNativeTarget "Tab bar Four" */;
 			buildPhases = (
+				7DD8EF3A8594907AA96FACBC /* [CP] Check Pods Manifest.lock */,
 				4E0C32A125B6B051006AC398 /* Sources */,
 				4E0C32A225B6B051006AC398 /* Frameworks */,
 				4E0C32A325B6B051006AC398 /* Resources */,
+				B70011B4BAD9BFF9E4FBCBAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +256,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DD8EF3A8594907AA96FACBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tab bar Four-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70011B4BAD9BFF9E4FBCBAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tab bar Four/Pods-Tab bar Four-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E0C32A125B6B051006AC398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4E0C32AB25B6B051006AC398 /* ContentView.swift in Sources */,
+				4E0C32CC25B6B2BF006AC398 /* GContentView.swift in Sources */,
+				4E0C32DA25B6B2DC006AC398 /* GradientViewModel.swift in Sources */,
+				4E0C32BA25B6B060006AC398 /* Home.swift in Sources */,
+				4E0C32C225B6B0A2006AC398 /* CustomTabView.swift in Sources */,
+				4E0C32CD25B6B2BF006AC398 /* GHome.swift in Sources */,
+				4E0C32D125B6B2CE006AC398 /* CShape.swift in Sources */,
+				4E0C32D425B6B2D3006AC398 /* GradientView.swift in Sources */,
 				4E0C32A925B6B051006AC398 /* Tab_bar_FourApp.swift in Sources */,
+				4E0C32D725B6B2D8006AC398 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +437,7 @@
 		};
 		4E0C32B525B6B052006AC398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D161D3D654FA2F07B8DFF1 /* Pods-Tab bar Four.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +460,7 @@
 		};
 		4E0C32B625B6B052006AC398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81200636186FAAE6617D3C42 /* Pods-Tab bar Four.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

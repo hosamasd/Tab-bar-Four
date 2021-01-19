@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedtab = "home"
+    
+    init() {
+        
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Home()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView_Prevsiews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
